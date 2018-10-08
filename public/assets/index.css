@@ -1,0 +1,38 @@
+html {
+    background: #ECE9E6;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.imaged {
+    z-index: -100;
+    object-fit: cover;
+    height: 100vh;
+    position: absolute;
+}
+
+.photo-cred {
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.github {
+    color: #333;
+}
+
+.linkedin {
+    color: #0077B5;
+}
+
+@media only screen and (max-width: 750px) {
+    .hero-body {
+        margin-bottom: 9rem;
+    }
+}
