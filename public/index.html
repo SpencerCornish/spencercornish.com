@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <img class='imaged' id='imaged' />
 
 <head>
@@ -8,10 +8,8 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Spencer Cornish</title>
     <link rel='icon' href='favicon.ico'>
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css' />
     <link async rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css' />
     <link rel='stylesheet' type='text/css' href='assets/index.css'>
-    <link async href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
     <script defer src='https://use.fontawesome.com/releases/v5.3.1/js/all.js' integrity='sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB'
         crossorigin='anonymous'></script>
 </head>
@@ -19,11 +17,11 @@
 
 <body>
     <section class='hero is-fullheight'>
-        <div class='contentarea animated fadeIn'>
+        <div class='contentarea animated fadeIn fast'>
             <div class='container has-text-centered'>
                 <div class='columns is-centered'>
                     <div class='column is-4'>
-                        <img class='image-me' src="assets/me.jpg"></img>    
+                        <img class='image-me' src="assets/me.jpg" alt='A photo of me'></img>    
                     </div>    
                 </div>
                 <div class='columns is-centered'>
@@ -35,19 +33,19 @@
                 <div class='columns is-centered'>
                     <div class='column is-5 has-text-centered'>
                         <p class='buttons is-centered'>
-                            <a class='button is-rounded' target='_blank' href='https://linkedin.com/in/spencercornish'>
+                            <a class='button is-rounded' target='_blank' rel="noreferrer" href='https://linkedin.com/in/spencercornish'>
                                 <span class='icon linkedin'>
                                     <i class='fab fa-linkedin'></i>
                                 </span>
                                 <span>LinkedIn</span>
                             </a>
-                            <a class='button is-rounded' target='_blank' href='https://github.com/spencercornish'>
+                            <a class='button is-rounded' target='_blank' rel="noreferrer" href='https://github.com/spencercornish'>
                                 <span class='icon github'>
                                     <i class='fab fa-github'></i>
                                 </span>
                                 <span>Github</span>
                             </a>
-                            <a class='button is-rounded' target='_blank' href='assets/spencer-cornish-resume-2021.pdf'>
+                            <a class='button is-rounded' target='_blank' rel="noreferrer" href='assets/spencer-cornish-resume-2021.pdf'>
                                 <span class='icon'>
                                     <i class='fas fa-file-alt'></i>
                                 </span>
@@ -64,13 +62,9 @@
                 <span class='icon'>
                     <i class='fas fa-camera-retro'></i>
                 </span>
-                <a class='has-text-white-ter' target='_blank' href='https://unsplash.com/@colterolmstead'>@Colter
+                <a class='has-text-white-ter' target='_blank' rel="noreferrer" href='https://unsplash.com/@colterolmstead'>@Colter
                     Olmstead</a>
             </span>
-            <a target='_blank' href='https://bulma.io' id='bulma' class='is-pulled-right'>
-                <img class='image is-invisible' id='bimg' src='https://bulma.io/images/made-with-bulma--white.png' alt='Made with Bulma'
-                    width='128' height='24'>
-            </a>
         </div>
     </section>
 </body>
@@ -89,11 +83,6 @@
 
         var tag = document.getElementById('photo-cred');
         tag.className = 'tag is-dark photo-cred animated fadeIn'
-
-        var bimg = document.getElementById('bimg');
-        bimg.className = 'image animated fadeIn'
-        bimg.src = 'https://bulma.io/images/made-with-bulma--white.png'
-
     }
 
     function sleep(ms) {
