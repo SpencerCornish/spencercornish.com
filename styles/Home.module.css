@@ -1,0 +1,43 @@
+.backgroundImage {
+    z-index: -100;
+    object-fit: cover;
+    height: 100vh;
+    position: absolute;
+}
+
+.photoCred {
+    margin-left: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.github {
+    color: #333;
+}
+
+.linkedin {
+    color: #0077B5;
+}
+
+.imageEd {
+    width: 20rem;
+}
+
+.box {
+    opacity: .9;
+}
+
+.hasTransparency {
+    background-color: rgba(0, 0, 0, .75);
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.profilePhoto {
+    height: 12rem;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.9);
+}
+
+.contentArea {
+    padding-top: 5rem;
+}

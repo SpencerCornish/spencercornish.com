@@ -1,0 +1,39 @@
+@import '~bulma/bulma';
+
+
+@media only screen and (max-width: 750px) {
+    .hero-body {
+        margin-bottom: 9rem;
+    }
+}
+
+
+ 
+:root {
+  --animate-duration: 1s;
+  --animate-delay: 1s;
+  --animate-repeat: 1;
+}
+
+.animated {
+  animation-duration: var(--animate-duration);
+  animation-fill-mode: both;
+}
+.animated.fast {
+  animation-duration: calc(var(--animate-duration) * 0.8);
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
